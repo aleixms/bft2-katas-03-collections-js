@@ -5,6 +5,7 @@ describe("Colecciones en JS: Array", () => {
     it("Pueden crearse usando [ ]", () => {
 
         // crea un array "a" usando los corchetes []
+        let a = 1;
 
         expect(Array.isArray(a)).to.be.true;
     })
